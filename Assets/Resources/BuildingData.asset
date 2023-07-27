@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3356a88b80ae5b14094a482a778a5211, type: 3}
+  m_Name: BuildingData
+  m_EditorClassIdentifier: 
+  buildings:
+  - name: Farm
+    price: 11
+    sellPrice: 5
+    energy: 2
+    nuclearEnergy: 0
+    buildingIndex: 0
+    buildingPrefab: {fileID: 4478046274464303029, guid: f56f9fa9a54744a4584a03878f1aa4ad,
+      type: 3}
+  - name: Generator
+    price: 30
+    sellPrice: 15
+    energy: 0
+    nuclearEnergy: 0
+    buildingIndex: 1
+    buildingPrefab: {fileID: 1088315543426728760, guid: 8d471ed1d170a3242af5787e56ede610,
+      type: 3}
+  - name: Housing
+    price: 45
+    sellPrice: 20
+    energy: 5
+    nuclearEnergy: 1
+    buildingIndex: 2
+    buildingPrefab: {fileID: 3972347793545557825, guid: 1d5e6e5881ad6ce4e8e73f64eaea427f,
+      type: 3}
+  - name: Reactor
+    price: 45
+    sellPrice: 20
+    energy: 5
+    nuclearEnergy: 1
+    buildingIndex: 3
+    buildingPrefab: {fileID: 2419086030989093745, guid: ced7fe24db5d51249aba107c457d4fc6,
+      type: 3}
